@@ -1,0 +1,11 @@
+<h1>Movies</h1>
+
+<div class="card mb-3">
+  <img src="<%= @movies.poster_url %>"  class="card-img-top" alt="<%=@movies.title %>">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text"><%= @movies.overview  %></p>
+    <p class="card-text"><small class="text-muted"> Rating: <%= @movies.rating %></small></p>
+  </div>
+</div>
+
